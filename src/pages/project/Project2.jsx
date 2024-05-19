@@ -43,16 +43,19 @@ useEffect(()=>{console.log(currentPage)},[currentPage])
   );
 }
 
+// project 페이지 영역
 const ProjectPageContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 170px;
   animation: 0.6s ease-in-out ${fadeAction};
 `;
+// project 내 카테고리 영역
 const ProjectHeader = styled.div`
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-bottom: 20px;
+  color: red;
 `;
 

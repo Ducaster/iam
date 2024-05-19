@@ -5,3 +5,6 @@
 
 @import 'assets/base.css';
 @import 'assets/antd-override.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
