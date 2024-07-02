@@ -63,12 +63,12 @@ export const fadeAction = keyframes`
 //페이드+위로 움직임
 export const fadeMoveAction = keyframes`
   0% {
-    transform: translateY(30px);
+    transform: trangrayY(30px);
     opacity:0
   }
 
   100% {
-    transform: translateY(0px);
+    transform: trangrayY(0px);
     opacity: 1;
   }
 `;
@@ -76,17 +76,17 @@ export const fadeMoveAction = keyframes`
 //페이드+위로 움직임+딜레이
 export const fadeMoveActionDelay = keyframes`
   0% {
-    transform: translateY(30px);
+    transform: trangrayY(30px);
     opacity:0
   }
 
   30% {
-    transform: translateY(30px);
+    transform: trangrayY(30px);
     opacity:0
   }
 
   100% {
-    transform: translateY(0px);
+    transform: trangrayY(0px);
     opacity: 1;
   }
 `;
@@ -108,26 +108,26 @@ export const fadeExpand = keyframes`
 //페이드+오른쪽에서이동
 export const fadeSlide = keyframes`
   0% {
-    transform: translateX(60%);
+    transform: trangrayX(60%);
     opacity:0
   }
 
 
   100% {
-    transform: translateX(0%);
+    transform: trangrayX(0%);
     opacity: 1;
   }
 `;
 
 export const fadeSlideOut = keyframes`
   0% {
-    transform: translateX(0%);
+    transform: trangrayX(0%);
     opacity:1
   }
 
 
   100% {
-    transform: translateX(60%);
+    transform: trangrayX(60%);
     opacity: 0;
   }
 `;

@@ -8,7 +8,7 @@ export default function Teams() {
     <Layout>
       <AnotherHeader />
       <TeamsPageContainer>
-        <div className="max-w-2xl text-slate-800">
+        <div className="max-w-2xl text-gray-800">
           <div className="text-3xl mb-5 font-bold">TEAMS</div>
           {/* media */}
           <div className="grid grid-flow-row gap-6">
@@ -23,13 +23,13 @@ export default function Teams() {
               <div className="font-bold text-2xl">Media Team</div>
               <div>
                 {/* <div className="mt-5 font-bold text-sm">Exodus 3:14</div> */}
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   우리는 독창적인 예술성을 지닌 사람들이 모여 창조적인
                   아름다움을 만듭니다. 아름다운 문화는 사회를 더 낫게 만든다는
                   믿음으로 우리의 아름다운 문화를 다양한 매개로 만들어 세상에
                   전하고자 합니다.
                 </div>
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   We bring together people with original artistry to create
                   creative beauty. With the belief that beautiful culture makes
                   society better, we would like to convey our beautiful culture
@@ -50,14 +50,14 @@ export default function Teams() {
             <div>
               <div className="font-bold text-2xl">Communication Team</div>
               <div>
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   파편적 지식을 토대로 통합적 지혜의 꽃을 피운다는 것은 생각보다
                   어려운 일이 아닙니다. 우리는 이미 인생의 다양한 경험을 통해
                   각자 나름의 ‘지혜’를 가지고 있습니다. 이제는 시야를 더 넓혀
                   내가 경험하지 못한 다양한 분야를 새롭게 이해하여 함께 연대할
                   때입니다.
                 </div>
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   It is not as difficult as I thought to bloom integrated wisdom
                   based on fragmentary knowledge. We already have our own
                   "wisdom" through various experiences in life. From now on, it
@@ -79,13 +79,13 @@ export default function Teams() {
             <div>
               <div className="font-bold text-2xl">Answering Team</div>
               <div>
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   우리는 심도 있는 자기 성찰을 통해 ‘나 다움’을 찾아갑니다.
                   ‘나는 누구인가?’라는 근원적 질문을 넘어 ‘I am who i am.’이라는
                   각자의 답을 찾아갑니다. 각자가 얻은 지혜를 나누며 더 나은
                   세상을 만들기 위해 노력합니다.
                 </div>
-                <div className="mt-1 text-md text-slate-400">
+                <div className="mt-1 text-base text-gray-400">
                   We look for "me-like" through deep self-reflection. Go beyond
                   the fundamental question of "Who am I?" and look for your own
                   answer, "I am who am." We will try to share the wisdom we have
