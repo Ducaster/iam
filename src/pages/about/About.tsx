@@ -32,7 +32,7 @@ export default function About() {
                   say to the Israelites: 'I AM has sent me to you.' "
                 </div>
                 <div className="mt-5 font-bold text-sm">출애굽기 3:14</div>
-                <div className="mt-1 text-base text-gray-400">
+                <div className="mt-1 text-base">
                   14. 하나님이 모세에게 이르시되 나는 스스로 있는 자니라 또
                   이르시되 너는 이스라엘 자손에게 이같이 이르기를 스스로 있는
                   자가 나를 너희에게 보내셨다 하라
@@ -50,7 +50,7 @@ export default function About() {
                 </div>
               </div>
               <div>
-                <div className="mt-5 text-base text-gray-400">
+                <div className="mt-5 text-base">
                   우리는 매일 어떤 결정을 하고 행동을 합니다. 어떤 분들은 결정과
                   행동의 성공 확률이 굉장히 높습니다. 또 어떤 분들은 성공 확률이
                   매우 낮습니다.
@@ -61,7 +61,7 @@ export default function About() {
                   actions. Also, some people can see that the probability of
                   success is very low.
                 </div>
-                <div className="mt-5 text-base text-gray-400">
+                <div className="mt-5 text-base">
                   어떤 선택이 모이느냐에 따라서 우리의 인생은 정말 큰 차이가
                   나게 됩니다. 좋은 선택을 하는 분들을 가리켜 우리는 보통
                   ‘현명하다.’고 합니다. 그렇다면 이 현명함은 과연 어디서 오는
@@ -83,7 +83,7 @@ export default function About() {
             </div>
           </div>
           {/* -- */}
-          <div className="mt-12 text-base text-gray-400 ">
+          <div className="mt-12 text-base">
             우리가 생각하기에는 세상에 대한 총체적이고 바른 이해가 중요하다고
             생각합니다. ‘세상을 폭 넓게 이해하고, 현명한 판단과 실행을 통해서
             인생의 중요한 기회를 놓치지 않는 것.’ 바로 그것이 지금 우리에게
@@ -95,7 +95,7 @@ export default function About() {
             life through a broad understanding of the world and wise judgment
             and execution." I think that's the wisdom we need now.{" "}
           </div>
-          <div className="mt-5 text-base text-gray-400">
+          <div className="mt-5 text-base">
             그래서 저희 ‘I AM’에서 이러한 지혜를 기를 수 있는 다양한 프로그램을
             만들어 연대하고 있습니다. 다방면에 걸친 다양한 지혜로 정성스럽게
             만든 프로그램을 여러분들과 나누어 연대하기를 소망합니다.
@@ -120,14 +120,18 @@ export default function About() {
               <div className=" font-bold">
                 <div className="text-2xl">Our Vision</div>
                 <div className="text-base">우리가 믿고 추구하는 것</div>
-                <div className="text-base">What We Believe and Pursue</div>
+                <div className="text-base text-gray-400">
+                  What We Believe and Pursue
+                </div>
               </div>
               <div>
                 <div className="mt-5 font-bold">
                   <div>1. 세상을 폭 넓고 바르게 이해하기</div>
-                  <div>Understanding the world widely and correctly</div>
+                  <div className="text-gray-400 text-sm font-normal">
+                    Understanding the world widely and correctly
+                  </div>
                 </div>
-                <div className="mt-1 text-gray-400">
+                <div className="mt-5">
                   배우고 습득하는 일은 아름다운 일이지만, 배우기만 하고 자기
                   것은 없다면 내 삶의 주인공은 자기 자신이 맞을까요? ‘다른
                   사람이 만든 기준이 아닌 자기가 만든 기준으로 살아가는 삶.’을
@@ -148,10 +152,12 @@ export default function About() {
             </div>
           </div>
           <div className="mt-12 font-bold">
-            2. 지식을 넘어 지혜로, 이해를 넘어 연대하기
+            <div>2. 지식을 넘어 지혜로, 이해를 넘어 연대하기</div>
+            <div className="text-gray-400 text-sm font-normal">
+              Solidarity beyond knowledge to wisdom and beyond understanding
+            </div>
           </div>
-          <div className="mt-1 text-gray-400">
-            Solidarity beyond knowledge to wisdom and beyond understanding
+          <div className="mt-5">
             우리는 사회와 어떤 관계를 맺으며 살아가야 할까요? 우리가
             생각하기에는 ‘단편적인 지식을 넘어, 통합적인 지혜를 추구하는 삶.’,
             ‘세상을 바르게 이해하여 사회와 연대하며 더불어 살아가는 삶.’ 이것이
@@ -167,14 +173,16 @@ export default function About() {
             standards and creates new creative engines.
           </div>
           <div className="mt-12 font-bold">
-            3. 우리의 문화를 나누어 세상을 더 낫게 만들기
+            <div>3. 우리의 문화를 나누어 세상을 더 낫게 만들기</div>
+            <div className="text-gray-400 text-sm font-normal">
+              Share Our Culture and Make The World Better
+            </div>
           </div>
-          <div className="mt-1 text-gray-400">
-            Share Our Culture and Make The World Better 넘쳐나는 이야기와 미디어
-            속에 ‘나 다움’은 없고 다른 사람의 꿈만 쫓아 살아갑니다. 다른 사람의
-            목소리에 휩쓸리지 않고 ‘나 자신’을 돌아보는 경험이 세상을 더 낫게
-            만들거라고 믿습니다. ‘I AM’은 여러분의 앞으로 쓰여질 각자의 드라마의
-            주인공이 ‘나 자신’이 되기를 기원합니다.
+          <div className="mt-5">
+            넘쳐나는 이야기와 미디어 속에 ‘나 다움’은 없고 다른 사람의 꿈만 쫓아
+            살아갑니다. 다른 사람의 목소리에 휩쓸리지 않고 ‘나 자신’을 돌아보는
+            경험이 세상을 더 낫게 만들거라고 믿습니다. ‘I AM’은 여러분의 앞으로
+            쓰여질 각자의 드라마의 주인공이 ‘나 자신’이 되기를 기원합니다.
           </div>
           <div className="mt-1 text-gray-400">
             There is no "me-like" in the overflowing stories and media, but they
