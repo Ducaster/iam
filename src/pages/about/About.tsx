@@ -38,9 +38,12 @@ export default function About() {
         </MainTitleWrapper>
         <MotiveWrapper>
           <MotiveHeader>우리의 모티브</MotiveHeader>
-          <MotiveMain>I AM WHO I AM</MotiveMain>
+          <MotiveMain>"I AM WHO I AM"</MotiveMain>
           <MotivePhrase>
-            <div>“하나님이 모세에게 이르시되 나는 스스로 있는 자니라… </div>
+            <div>
+              “하나님이 모세에게 이르시되{" "}
+              <span>나는 스스로 있는 자니라(I AM WHO I AM)</span>…
+            </div>
             <div>
               너는 이스라엘 자손에게 이같이 이르기를 스스로 있는 자가 나를
               너희에게 보내셨다 하라” (출애굽기 3:14)
@@ -224,6 +227,11 @@ const MotivePhrase = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  span {
+    font-weight: 900;
+    text-decoration: underline;
+  }
 
   ${mediaQuery.pad} {
     font-size: 14px;
