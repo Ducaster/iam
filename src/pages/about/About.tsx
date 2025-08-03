@@ -80,8 +80,8 @@ export default function About() {
               <ProgramDescWrapper>
                 <div>강연 및 각종 프로그램</div>
                 <div>
-                  ‘진짜 나’를 찾고, 성장할 수 있도록 강연, 훈련, 멘토링, 다양한
-                  콘텐츠를 기획·운영합니다.
+                  자기 발견과 성장을 돕는 강연, 행사, 멘토링 등 다양한 콘텐츠를
+                  기획·운영합니다.
                 </div>
               </ProgramDescWrapper>
             </ProgramBox>
@@ -93,9 +93,8 @@ export default function About() {
               <ProgramDescWrapper>
                 <div>Who I AM</div>
                 <div>
-                  ‘진짜 나’를 찾고, 성장할 수 있는 체계적인 훈련 프로그램을
-                  운영합니다. 강연, 코칭, 교류와 각종 프로그램을 함께 할 수
-                  있습니다.
+                  ‘진짜 나’를 찾고, 성장할 수 있도록 돕는 I AM만의 특별한 훈련
+                  프로그램을 운영합니다.
                 </div>
               </ProgramDescWrapper>
             </ProgramBox>
@@ -194,7 +193,7 @@ const MotiveWrapper = styled.div`
 
 const MotiveHeader = styled.div`
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
 
   ${mediaQuery.pad} {
     font-size: 18px;
@@ -291,7 +290,7 @@ const OurvisionTextWrapper = styled.div`
 
 const OurVisionHeader = styled.div`
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 30px;
 
   ${mediaQuery.pad} {
@@ -345,7 +344,7 @@ const ProgramWrapper = styled.div`
 
 const ProgramHeader = styled.div`
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
 
   ${mediaQuery.pad} {
     font-size: 18px;
